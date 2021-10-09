@@ -1,0 +1,179 @@
+@import "modules/fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  // This scrollbar style only for firefox browsers
+  scrollbar-width: thin;
+  scrollbar-color: #4B12C9 #020816;
+}
+
+header {
+  background-image: linear-gradient(to right bottom, #4b12c9, #2c20af, #0e2393, #002276, #001e59, #011b4a, #04173a, #08132b, #071126, #060e20, #040b1b, #020816);
+}
+
+footer {
+  background-color: #000050;
+}
+
+footer,
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  strong {
+    color: white;
+    margin: 0.5em;
+    font-family: $salmaAlfalight;
+    font-size: 1.25em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  svg {
+    fill: white;
+    margin: 0.5em 0;
+    transition: fill 0.3s ease-in-out;
+
+    &:hover {
+      fill: black;
+    }
+  }
+
+  h1 {
+    color: white;
+    margin: 0.5em;
+    font-size: 5em;
+    font-family: $mustica;
+    letter-spacing: 5px;
+  }
+
+  p {
+    color: white;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-size: 2.5em;
+    font-family: $salmaAlfalight;
+    letter-spacing: 5px;
+  }
+
+  .btn {
+    margin: 0.5em 0;
+    padding: 0.5em 2em;
+    background-color: #dddddd55;
+    font-family: $mustica;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #dddddd02;
+    }
+  }
+  .rd{
+    font-family: $mustica;
+    color: aquamarine;
+    transition: color 0.2s ease-in-out;
+    &:hover{
+      color: #2c20af;
+    }
+  }
+}
+table {
+  th,td{
+    padding: 1em;
+    font-family: $salmaAlfalight;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+}
+.table-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7bc;
+  h1{
+    font-family: $mustica;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    margin: 1em;
+  }
+  table{
+    border-collapse: collapse;
+    font-size: 2em;
+    margin: 0.5em;
+    min-width: 25em;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    thead{
+      tr{
+        background-color: #00aed1;
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        th{
+          font-family: $mustica;
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
+}
+table {
+  tbody{
+    tr{
+      border-bottom: 1px solid #b6b8c4;
+    }
+    tr:nth-of-type(odd){
+      background-color: #e1e1e1;
+    }
+    tr:last-of-type{
+      border-bottom: 4px solid #00aed1;
+    }
+  }
+}
+.creator{
+  color: #00aed1;
+  font-weight: bolder;
+}
+td{
+  a{
+    color: #00aed1;
+    transition: color 0.3s ease-in-out;
+    &:hover{
+      color: #1870cc;
+    }
+  }
+}
+
+#rules{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #f7f7bc;
+  h1{
+    margin: 0.5em 1em;
+    font-family: $mustica;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+  }
+  ul{
+    li{
+      font-family: $salmaAlfalight;
+      list-style-type: upper-roman;
+      padding: 0.5em;
+      margin: 1em 2.5em;
+      font-size: 1.35em;
+    }
+  }
+}
