@@ -19,14 +19,7 @@ This is the project that you can contribute by following some steps -:
  6. Don't use `.creator` class in `<tr>` tag.
 
 You can easily contribute in this project .
-***
 
 ## THANK YOU
 
-***
-
-## HAPPY HACKTOBER FEST Everyone
-
-***
-
-
+## HAPPY HACKTOBER FEST Everyone 🎉 🎊
