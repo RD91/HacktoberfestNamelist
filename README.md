@@ -16,7 +16,7 @@ This is the project that you can contribute by following some steps -:
  5. With Your name, github id and GITHUB link as it is commented their.
  ![09 10 2021_14 51 36_REC](https://user-images.githubusercontent.com/48854628/136652817-838467b6-10a8-4b20-88d1-a3cee2ed8801.png)
  
- 6. Don't use `.creator` class in `<tr>` tag.
+ 6. Don't use `.creator` class in your `<tr>` tag.
 
 You can easily contribute in this project .
 
